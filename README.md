@@ -7,14 +7,19 @@
 
 ### Layer previews
 
-#### Base
-<img width="1333" height="435" alt="image" src="https://github.com/user-attachments/assets/37bead11-6a41-495a-8050-b5f490de531b" />
+Generadas automáticamente desde [`config/corne.keymap`](config/corne.keymap) con [keymap-drawer](https://github.com/caksoylar/keymap-drawer). Para verlas todas juntas en local abrí [`docs/index.html`](docs/index.html).
 
-#### Lower
-<img width="1323" height="439" alt="image" src="https://github.com/user-attachments/assets/9eb23cf9-94f8-4bd1-9b5f-3b1fc6ae5e78" />
+#### Base (capa 0)
+<img width="900" alt="Base" src="docs/layers/base.svg" />
 
-#### Raise
-<img width="1323" height="433" alt="image" src="https://github.com/user-attachments/assets/bfa2a616-b5c0-42fd-81db-6ebc022ea842" />
+#### Lower (capa 1) — números y símbolos
+<img width="900" alt="Lower" src="docs/layers/lower.svg" />
 
-#### Adjust
-<img width="1323" height="433" alt="image" src="https://github.com/user-attachments/assets/99f0bac7-8d1f-44e1-ba15-74e243d0b068" />
+#### Raise (capa 2) — navegación y macros
+<img width="900" alt="Raise" src="docs/layers/raise.svg" />
+
+#### Capa 3 — F-keys, mouse y Studio unlock (mantener `MO 3`)
+<img width="900" alt="Layer 3" src="docs/layers/layer3.svg" />
+
+#### Capa 4 — Bluetooth (mantener `MO 3` + pulgar derecho interno)
+<img width="900" alt="Bluetooth" src="docs/layers/bluetooth.svg" />
