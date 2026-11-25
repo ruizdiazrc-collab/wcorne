@@ -1,0 +1,48 @@
+parse_config:
+  zmk_combos_use_binding_combos: false
+  modifier_fn_map:
+    left_shift: "⇧"
+    mod_combiner: "{mod_1}{mod_2}"
+    keycode_combiner: "{mods}{key}"
+  raw_binding_map:
+    "&studio_unlock": "Studio"
+    "&bootloader": "Boot"
+    "&bt BT_CLR": "BT Clear"
+  zmk_keycode_map:
+    LSHFT: Shift
+    RSHFT: Shift
+    LCTRL: Ctrl
+    LALT: Alt
+    RALT: AltGr
+    LGUI: Win
+    RGUI: Win
+    BSPC: "⌫"
+    RET: Enter
+    SPACE: Space
+    DEL: Supr
+    TAB: Tab
+    UP: "↑"
+    DOWN: "↓"
+    LEFT: "←"
+    RIGHT: "→"
+    KP_PLUS: "+"
+    KP_MINUS: "−"
+    KP_MULTIPLY: "×"
+    KP_DIVIDE: "÷"
+    C_PP: Play
+    C_PREV: Prev
+    C_NEXT: Next
+    C_MUTE: Mute
+    C_VOL_DN: Vol −
+    C_VOL_UP: Vol +
+    NON_US_BSLH: "<>"
+    SQT: "'"
+    MINUS: "-"
+    BSLH: "\\"
+    SEMI: ";"
+    COMMA: ","
+    DOT: "."
+    FSLH: "/"
+draw_config:
+  key_h: 60
+  dark_mode: auto

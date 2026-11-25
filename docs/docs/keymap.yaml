@@ -1,0 +1,200 @@
+layout:
+  ortho_layout:
+    split: true
+    rows: 3
+    columns: 6
+    thumbs: 3
+layers:
+  Base:
+  - - Tab
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - ⌫
+  - - Shift
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - ;
+    - Enter
+  - - Ctrl
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - ','
+    - .
+    - /
+    - Shift
+  - - Alt
+    - Win
+    - Num
+    - Space
+    - AltGr
+    - Supr
+  Num:
+  - - Tab
+    - ''
+    - ''
+    - ''
+    - ⇧2
+    - ⇧'
+    - '7'
+    - '8'
+    - '9'
+    - +
+    - −
+    - Supr
+  - - Shift
+    - ''
+    - ''
+    - ''
+    - ⇧8
+    - ⇧9
+    - '4'
+    - '5'
+    - '6'
+    - '0'
+    - ↑
+    - ÷
+  - - Ctrl
+    - ''
+    - ''
+    - ''
+    - ⇧-
+    - ⇧1
+    - '1'
+    - '2'
+    - '3'
+    - ←
+    - ↓
+    - →
+  - - Win
+    - t: ▽
+      type: trans
+    - t: Num
+      type: held
+    - Space
+    - Sym
+    - AltGr
+  Numpad:
+  - - Play
+    - Prev
+    - Next
+    - Mute
+    - Vol −
+    - Vol +
+    - t: '7'
+      s: KP
+    - t: '8'
+      s: KP
+    - t: '9'
+      s: KP
+    - +
+    - −
+    - ×
+  - - Shift
+    - ''
+    - ''
+    - ''
+    - ⇧8
+    - ⇧9
+    - t: '4'
+      s: KP
+    - t: '5'
+      s: KP
+    - t: '6'
+      s: KP
+    - t: '0'
+      s: KP
+    - ↑
+    - ÷
+  - - Ctrl
+    - ''
+    - ''
+    - <>
+    - ⇧-
+    - ⇧1
+    - t: '1'
+      s: KP
+    - t: '2'
+      s: KP
+    - t: '3'
+      s: KP
+    - ←
+    - ↓
+    - →
+  - - Win
+    - Sym
+    - Enter
+    - Space
+    - t: ▽
+      type: trans
+    - AltGr
+  Sym:
+  - - BT Clear
+    - t: BT
+      h: '0'
+    - t: BT
+      h: '1'
+    - t: BT
+      h: '2'
+    - t: BT
+      h: '3'
+    - t: BT
+      h: '4'
+    - ⇧0
+    - ⇧'
+    - ⇧\
+    - ''
+    - ''
+    - ''
+  - - Studio
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ⇧2
+    - ''''
+    - \
+    - ''
+    - ''
+    - ''
+  - - Boot
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - - Win
+    - t: ▽
+      type: trans
+    - t: Num
+      type: held
+    - Space
+    - t: Sym
+      type: held
+    - AltGr
